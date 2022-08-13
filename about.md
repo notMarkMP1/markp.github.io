@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-<center><img src="/pfp.png" alt="My Profile Picture" width="20%" height = "20%"><br /><sub><sup> My profile picture. <a href="https://twitter.com/aruco_coo/status/1436986044960763911">Credit</a></sup></sub></center>
+<center><img src="//pfp.png" alt="My Profile Picture" width="20%" height = "20%"><br /><sub><sup> My profile picture. <a href="https://twitter.com/aruco_coo/status/1436986044960763911">Credit</a></sup></sub></center>
 Hello! My name is Mark Peng. <br /><br />
 I am currently a junior in highschool, who is deeply captivated by computer science and rhythm gaming. During my time in computer science, expirementing around with projects and coding challenges, I underwent many experiences worth telling stories for, with no one to tell them too. I used to tell them in group chats with friends, however as my diction grew increasingly more technical, my friends were no longer able to keep up with my stories. And as a result, this blog was created!
 
