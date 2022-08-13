@@ -1,6 +1,6 @@
 {%- assign posts = paginator.posts | default: site.posts -%}
 {% for post in posts %}
-  {% if post.category == "hidden" %}
+  {% if post.category[0] != "hidden" %}
   <article>
     {% include meta.html post=post preview=true %}
     {{ post.excerpt }}
