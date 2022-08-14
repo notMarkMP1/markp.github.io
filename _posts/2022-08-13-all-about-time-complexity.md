@@ -6,7 +6,7 @@ layout: post
 category: ["programming", "competitive programming", "time complexity"]
 ---
 
-One of the most well known and important concepts found in computer science. It is used almost everywhere in programming, to better analyze and investigate code overall. Analyzing time complexity allows us to determine the **order of magnitude** of a piece of code, giving good insight to the efficiency and (partially) what speed the code will complete execution.
+Time complexity is one of the most well known and important concepts found in computer science. It is used almost everywhere in programming, to better analyze and investigate code overall. Analyzing time complexity allows us to determine the **order of magnitude** of a piece of code, giving good insight to the efficiency and (partially) what speed the code will complete execution.
 <!--more-->
 
 <center><img src="https://miro.medium.com/max/1200/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg" alt="drawing" width="80%"/><br /><sub><sup><a href="https://www.bigocheatsheet.com/">Credit</a></sup></sub></center>
@@ -163,7 +163,7 @@ for(int i = 0; i <= n; i++){
 ```py
 # Python
 for i in range(1, n+1):
-    for j in range(1, m+1):
+    for j in range(0, m+1):
         # constant time code here
 for i in range(0, n+1):
     # constnat time code here
