@@ -53,6 +53,54 @@ nav a:hover, nav a.selected
 
 .description
   font-style: italic
+  margin-bottom: 1em
 
 .title
   display: inline-block; 
+
+aside sup
+  position: absolute
+  bottom: 0
+  right: 0
+  padding: inherit
+
+aside button
+  position: absolute
+  bottom: 0
+  left: 0
+  padding: inherit
+
+button svg
+    fill: #fff
+    height: 1.5em
+    width: 1.5em
+
+button svg
+    fill: #fff
+    height: 0em
+    width: 0em
+
+aside svg.dark#moon
+    height: 0em
+    width: 0em
+
+aside svg.dark#sun
+    height: 1.5em
+    width: 1.5em
+
+aside svg.light#moon
+    height: 1.5em
+    width: 1.5em
+
+aside svg.light#sun
+    height: 0em
+    width: 0em
+    
+@media (prefers-color-scheme: dark)
+  button svg#moon
+    height: 0em
+    width: 0em
+  button svg#sun
+    height: 1.5em
+    width: 1.5em
+

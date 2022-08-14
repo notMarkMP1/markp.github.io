@@ -10,11 +10,34 @@ body
   -webkit-text-size-adjust: 100%
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
+* 
+  -webkit-transition: background-color 150ms ease-in
+  -moz-transition: background-color 150ms ease-in
+  -ms-transition: background-color 150ms ease-in
+  -o-transition: background-color 150ms ease-in
+  transition: background-color 150ms ease-in
+
+button
+    background-color: transparent
+    background-repeat: no-repeat
+    border: none
+    cursor: pointer
+    overflow: hidden
+    outline: none
 
 @media (prefers-color-scheme: dark)
   body
     background: $dark
     color: $light
+
+
+body.dark
+  background: $dark
+  color: $light
+
+body.light 
+  background: $light
+  color: $dark
 
 h1, h2, h3, h4, h5, h6
   font-weight: $heading-weight
@@ -94,3 +117,29 @@ pre
   border-radius: 2px
   margin: 0 .1em
   padding: .2em .4em
+
+header svg
+    fill: #fff
+header svg.dark#moon
+    height: 0em
+    width: 0em
+
+header svg.dark#sun
+    height: 1.5em
+    width: 1.5em
+
+header svg.light#moon
+    height: 1.5em
+    width: 1.5em
+
+header svg.light#sun
+    height: 0em
+    width: 0em
+    
+@media (prefers-color-scheme: dark)
+  header svg#moon
+    height: 0em
+    width: 0em
+  header svg#sun
+    height: 1.5em
+    width: 1.5em

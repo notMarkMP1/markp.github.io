@@ -28,12 +28,15 @@
 {% endif %}
 
 <header>
+  <button onClick="toggleDarkMode()">
+    <svg aria-hidden="true" id = "moon"><use xlink:href="/assets/fontawesome/icons.svg#moon"></use></svg>
+    <svg aria-hidden="true" id = "sun"><use xlink:href="/assets/fontawesome/icons.svg#sun"></use></svg>
+ </button>
   <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
   {% include menu.html menu=pages %}
 </header>
 
 {{ content }}
-
 {% if site.external %}
 <footer>
   <div> <sup><sub>© 2022</sub></sup> &nbsp;{{ site.description | default: site.title }}</div>
