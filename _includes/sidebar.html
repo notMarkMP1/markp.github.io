@@ -1,5 +1,10 @@
 <link rel="stylesheet" href="{{ "/assets/css/sidebar.css" | relative_url }}" media="screen and (min-width: 70em)">
 <aside style="display: none">
+  <img src="/pfp.png">
+  {% unless site.show_title != true and site.navigation and site.external %}
+  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+  <div class="description">{{ site.description }}</div>
+{% endunless %}
   <nav>
   {%- for item in site.navigation -%}
     {%- assign node = site.pages | where: "name", item.file | first -%}
@@ -22,5 +27,4 @@
     </a>
   {%- endfor -%}
   </nav>
-  <div class="description">{{ site.description }}</div>
 </aside>

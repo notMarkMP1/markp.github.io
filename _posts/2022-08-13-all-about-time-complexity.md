@@ -226,12 +226,18 @@ Understanding time complexity can give useful insights into the expected efficie
 <br />
 For example, take a look at [this problem][fts], on the competitive programming website, DMOJ. 
 
-![problem statement of the problem](../assets/images/time_complexity_analysis.PNG)
 
-This is the important part of the problem statement. We notice we are given a string of length $$ n $$, where $$ n $$'s length will not exceed $$ 10^6 $$. You must write an algorithm to achieve the expected output. This all must pass within a time limit of $$ 1.0 $$ seconds. Looking at $$ n $$, and how it will not exceed a length of $$ 10^6 $$, we can easily tell that the algorithm must be extremely efficienct, likely within the range of $$ O(n) $$ time complexity for the worst chunk of code. This tells us that we must solve the problem through singular sweeps of the string, meaning that there is likely a key realization required in order to solve the problem. 
+> ## Input Specification
+> The first line will contain an integer $$ N \,(1 \le N \le 10^6)$$.
+>
+> The next line will contain a string of $$ N $$ characters `0` and `1`, representing the states of the switches from $$ 1 $$ to $$ N $$ (`0` is off, `1` is on).
+
+
+Above is the information we need in order to predict time complexity, given by the problem. <br /> <br />
+We notice we are given a string of length $$ n $$, where $$ n $$'s length will not exceed $$ 10^6 $$. You must write an algorithm to achieve the expected output. This all must pass within a time limit of $$ 1.0 $$ seconds. Looking at $$ n $$, and how it will not exceed a length of $$ 10^6 $$, we can easily tell that the algorithm must be extremely efficienct, likely within the range of $$ O(n) $$ time complexity for the worst chunk of code. This tells us that we must solve the problem through singular sweeps of the string, meaning that there is likely a key realization required in order to solve the problem. 
 
 <br />
-The intended time complexity is $$ O(n) $$, with a total time complexity of $$ O(n + n) $$.
+The intended time complexity is $$ O(n) $$, with a total time complexity of $$ O(n + n) $$ or $$ O(2n) $$.
 
 
 ---
@@ -240,9 +246,9 @@ The intended time complexity is $$ O(n) $$, with a total time complexity of $$ O
 Time complexity is one of the most common computer science concepts found all across the field. It is an extremely powerful way to measure the efficiency of an algorithm, and can be used outside of simple code analysis. 
 
 ### Additional Resources:
-Look at common time complexities: <a>https://www.bigocheatsheet.com/</a>
+Look at common time complexities: <a href="https://www.bigocheatsheet.com/">https://www.bigocheatsheet.com/</a>
 <br/>
-Learn about a similar concept known as space complexity: <a>https://www.scaler.com/topics/data-structures/space-complexity-in-data-structure/</a>
+Learn about a similar concept known as space complexity: <a href="https://www.scaler.com/topics/data-structures/space-complexity-in-data-structure/">https://www.scaler.com/topics/data-structures/space-complexity-in-data-structure/</a>
 
 
 [fts]:https://dmoj.ca/problem/fts

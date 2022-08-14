@@ -1,5 +1,5 @@
 ---
-title: "About the Author - Mark P."
+title: "About"
 permalink: "/about/"
 layout: page
 ---

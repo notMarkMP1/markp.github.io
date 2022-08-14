@@ -1,16 +1,19 @@
 title: "Mark's Blog"
 author: "Mark P."
 description: "My personal blog about computer science."
-permalink: /:title/
+permalink: /:year/:month/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
 # Layout
 
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
+sidebar: true               
+show_excerpts: true        
+show_related: true          
+show_description: false     
+show_title: true           
+show_frame: true
 
 # Menu
 
@@ -19,7 +22,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {icon: info, file: "about.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Credits, file: "credits.md"}
+  - {title: Credits, icon: heart,  file: "credits.md"}
   - {title: Mail, icon: envelope, url: "mailto:markminpeng@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/MarkMP1/blog.markp.xyz"}
   - {title: RSS Feed, icon: rss, url: "/feed.xml"}
