@@ -213,7 +213,7 @@ Time complexity is hidden everywhere! Many built-in language features have time 
 
 Here are some common examples:
 * Math (addition, subtraction, multiplication, division): $$ O(1) $$
-* Sorting an array of $$ n $$ length, using default built-in sorts (e.g `std::sort` in C++: $$ O(n \log n) $$ 
+* Sorting an array of $$ n $$ length, using default built-in sorts (e.g `std::sort` in C++): $$ O(n \log n) $$ 
 * Dictionary/Map/Set: $$ O(\log n) $$
 
 <sup>Remember: In computer science, $$ \log $$ is almost always in base $$ 2 $$</sup>
