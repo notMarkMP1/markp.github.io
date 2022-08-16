@@ -239,7 +239,7 @@ We notice we are given a string of length $$ n $$, where $$ n $$'s length will n
 <br />
 An time complexity of $$ O(n) $$ passes well under the time limit, with slower implementations up and above $$ O(3n) $$ passing as well.
 
-Solution to the problem [here](https://blog.markp.xyz/2022/08/flip-the-switches/)
+Extra: Solution to the problem [here](https://blog.markp.xyz/2022/08/flip-the-switches/).
 
 ---
 ## Conclusion
