@@ -237,8 +237,9 @@ Above is the information we need in order to predict time complexity, given by t
 We notice we are given a string of length $$ n $$, where $$ n $$'s length will not exceed $$ 10^6 $$. You must write an algorithm to achieve the expected output. This all must pass within a time limit of $$ 1.0 $$ seconds. Looking at $$ n $$, and how it will not exceed a length of $$ 10^6 $$, we can easily tell that the algorithm must be extremely efficienct, likely within the range of $$ O(n) $$ time complexity for the worst chunk of code. This tells us that we must solve the problem through singular sweeps of the string, meaning that there is likely a key realization required in order to solve the problem. 
 
 <br />
-The intended time complexity is $$ O(n) $$, with a total time complexity of $$ O(n + n) $$ or $$ O(2n) $$.
+An time complexity of $$ O(n) $$ passes well under the time limit, with slower implementations up and above $$ O(3n) $$ passing as well.
 
+Solution to the problem [here](https://blog.markp.xyz/2022/08/flip-the-switches/)
 
 ---
 ## Conclusion
